@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Arabic font by Minecraft Bedrock Arabic",
+		"name": "Arabic font",
+		"uuid": "f3b84ff7-5889-4db7-9ace-4fbb65016a13",
+		"version": [1, 6,13],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "...",
+			"type": "resources",
+			"uuid": "a37328f9-6bf8-4154-979e-92da9756b19a",
+			"version": [1, 6,13]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f792750e-e5b2-4ac2-ac31-5bb821d1db8f",
+			"version": [1, 6,13]
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.item_holder": {
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        { "num_0_0": "q.property('item:slot_0') == 0" },
+        { "num_0_1": "q.property('item:slot_0') == 1" },
+        { "num_0_2": "q.property('item:slot_0') == 2" },
+        { "num_0_3": "q.property('item:slot_0') == 3" },
+        { "num_0_4": "q.property('item:slot_0') == 4" },
+        { "num_0_5": "q.property('item:slot_0') == 5" },
+        { "num_0_6": "q.property('item:slot_0') == 6" },
+        { "num_0_7": "q.property('item:slot_0') == 7" },
+        { "num_0_8": "q.property('item:slot_0') == 8" },
+        { "num_0_9": "q.property('item:slot_0') == 9" },
+
+        { "num_1_0": "q.property('item:slot_1') == 0" },
+        { "num_1_1": "q.property('item:slot_1') == 1" },
+        { "num_1_2": "q.property('item:slot_1') == 2" },
+        { "num_1_3": "q.property('item:slot_1') == 3" },
+        { "num_1_4": "q.property('item:slot_1') == 4" },
+        { "num_1_5": "q.property('item:slot_1') == 5" },
+        { "num_1_6": "q.property('item:slot_1') == 6" },
+        { "num_1_7": "q.property('item:slot_1') == 7" },
+        { "num_1_8": "q.property('item:slot_1') == 8" },
+        { "num_1_9": "q.property('item:slot_1') == 9" },
+
+        { "highlight": "q.property('item:selected') == 1 || q.property('item:selected') == 3" },
+        { "selected": "q.property('item:selected') == 2 || q.property('item:selected') == 3" },
+        { "others": "q.property('item:selected') == 4" },
+        { "transfer": "q.property('item:selected') == 5" }
+      ],
+      "materials": [ 
+        { "*": "Material.default" },
+        { "num_0_0": "Material.stack" },
+        { "num_0_1": "Material.stack" },
+        { "num_0_2": "Material.stack" },
+        { "num_0_3": "Material.stack" },
+        { "num_0_4": "Material.stack" },
+        { "num_0_5": "Material.stack" },
+        { "num_0_6": "Material.stack" },
+        { "num_0_7": "Material.stack" },
+        { "num_0_8": "Material.stack" },
+        { "num_0_9": "Material.stack" },
+        { "num_1_0": "Material.stack" },
+        { "num_1_1": "Material.stack" },
+        { "num_1_2": "Material.stack" },
+        { "num_1_3": "Material.stack" },
+        { "num_1_4": "Material.stack" },
+        { "num_1_5": "Material.stack" },
+        { "num_1_6": "Material.stack" },
+        { "num_1_7": "Material.stack" },
+        { "num_1_8": "Material.stack" },
+        { "num_1_9": "Material.stack" }
+      ],
+      "textures": [ "Texture.default" ]
+    },
+    "controller.render.selectTransfer": {
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        { "*": false },
+        { "transfer": "q.property('item:selected') == 5" }
+      ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "overlay_color": {
+        "r": "1.0",
+        "g": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
+        "b": "(Math.sin(query.life_time * 500.0 + 240.0) + 1.0) * 0.1",
+        "a": "0.5"
+      },
+      "ignore_lighting": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "effectoo:line",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/line"
+      },
+      "geometry": {
+        "default": "geometry.line"
+      },
+      "scripts": {
+        "pre_animation": [
+          "v.size = q.property('line:size');",
+          "v.rot_x = q.property('line:rotation_x');",
+          "v.rot_y = q.property('line:rotation_y');"
+        ],
+        "animate": [
+          "sizeRot"
+        ]
+      },
+      "animations": {
+        "sizeRot": "animation.line.sizeRot"
+      },
+      "render_controllers": [ "controller.render.line" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Floating Containers B",
+    "description": "By Effect99",
+    "uuid": "74b8a961-48bc-40fd-bd1e-3d061cde4c05",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 21, 20 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ae06c3bc-9451-4a02-bc4c-e16218881289",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "uuid": "63f465eb-681c-4102-b5d5-36b620ae0228",
+      "version": [1, 0, 0],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "43b60ff1-5e54-4e5b-b8ba-2db43ae30649",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": [ "Effect99" ]
+  }
+}

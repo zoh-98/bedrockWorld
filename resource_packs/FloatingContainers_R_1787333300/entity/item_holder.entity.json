@@ -1,0 +1,92 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "effectoo:item_holder",
+      "materials": {
+        "default": "entity_alphablend",
+        "stack": "entity_alphatest_one_sided"
+      },
+      "textures": {
+        "default": "textures/entity/highlight_slot"
+      },
+      "geometry": {
+        "default": "geometry.item_holder"
+      },
+      "scripts": {
+        "scale": "0.6",
+        "pre_animation": [
+          "v.pos = q.property('item:pos');",
+          "v.stack_offset = q.property('item:stack_offset');"
+        ],
+        "animate": [
+          { "items_0": "v.pos == 1" },
+          { "items_1": "v.pos == 2" },
+          { "items_2": "v.pos == 3" },
+          { "items_3": "v.pos == 4" },
+          { "items_4": "v.pos == 5" },
+          { "items_5": "v.pos == 6" },
+          { "items_6": "v.pos == 7" },
+          { "items_7": "v.pos == 8" },
+          { "items_8": "v.pos == 9" },
+          { "items_9": "v.pos == 10" },
+          { "items_10": "v.pos == 11" },
+          { "items_11": "v.pos == 12" },
+          { "items_12": "v.pos == 13" },
+          { "items_13": "v.pos == 14" },
+          { "items_14": "v.pos == 15" },
+          { "items_15": "v.pos == 16" },
+          { "items_16": "v.pos == 17" },
+          { "items_17": "v.pos == 18" },
+          { "items_18": "v.pos == 19" },
+          { "items_19": "v.pos == 20" },
+          { "items_20": "v.pos == 21" },
+          { "items_21": "v.pos == 22" },
+          { "items_22": "v.pos == 23" },
+          { "items_23": "v.pos == 24" },
+          { "items_24": "v.pos == 25" },
+          { "items_25": "v.pos == 26" },
+
+          { "offset_1": "v.stack_offset == 1" },
+          { "offset_2": "v.stack_offset == 2" }
+        ]
+      },
+      "animations": {
+        "items_0": "animation.items.pos_0",
+        "items_1": "animation.items.pos_1",
+        "items_2": "animation.items.pos_2",
+        "items_3": "animation.items.pos_3",
+        "items_4": "animation.items.pos_4",
+        "items_5": "animation.items.pos_5",
+        "items_6": "animation.items.pos_6",
+        "items_7": "animation.items.pos_7",
+        "items_8": "animation.items.pos_8",
+        "items_9": "animation.items.pos_9",
+        "items_10": "animation.items.pos_10",
+        "items_11": "animation.items.pos_11",
+        "items_12": "animation.items.pos_12",
+        "items_13": "animation.items.pos_13",
+        "items_14": "animation.items.pos_14",
+        "items_15": "animation.items.pos_15",
+        "items_16": "animation.items.pos_16",
+        "items_17": "animation.items.pos_17",
+        "items_18": "animation.items.pos_18",
+        "items_19": "animation.items.pos_19",
+        "items_20": "animation.items.pos_20",
+        "items_21": "animation.items.pos_21",
+        "items_22": "animation.items.pos_22",
+        "items_23": "animation.items.pos_23",
+        "items_24": "animation.items.pos_24",
+        "items_25": "animation.items.pos_25",
+
+        "offset_1": "animation.items.stack_offset_1",
+        "offset_2": "animation.items.stack_offset_2"
+      },
+      "render_controllers": [ 
+        { "controller.render.item_holder": "q.property('item:selected') != 5"},
+        { "controller.render.selectTransfer": "q.property('item:selected') == 5" }
+      ],
+      "enable_attachables": true
+    }
+  }
+}

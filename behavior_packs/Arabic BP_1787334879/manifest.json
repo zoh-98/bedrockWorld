@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Arabic Language Fix",
+		"description": "Arabic Language Fix using the Script API",
+		"uuid": "f792750e-e5b2-4ac2-ac31-5bb821d1db8f",
+		"min_engine_version": [1, 20, 0],
+		"version": [1, 6,13]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack Module",
+			"type": "data",
+			"uuid": "209d242e-ee72-4e29-87af-2d4986e22465",
+			"version": [1, 6,13]
+		},
+		{
+			"description": "GameTest Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "5f45aaa0-8f2a-4c72-9164-a4be337fb3f3",
+			"version": [1, 6,13]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f3b84ff7-5889-4db7-9ace-4fbb65016a13",
+			"version": [1, 6,13]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.10.0-beta"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.line.sizeRot": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"line": {
+					"rotation": ["-v.rot_x", "-v.rot_y", 0],
+					"scale": [1, "v.size", 1]
+				}
+			}
+		}
+	}
+}

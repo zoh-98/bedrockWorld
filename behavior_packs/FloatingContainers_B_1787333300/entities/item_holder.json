@@ -1,0 +1,132 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "effectoo:item_holder",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "properties": {
+        "item:pos": { "type": "int", "range": [ 0, 40 ], "default": 0, "client_sync": true },
+        "item:slot_0": { "type": "int", "range": [ -1, 9 ], "default": -1, "client_sync": true },
+        "item:slot_1": { "type": "int", "range": [ -1, 9 ], "default": -1, "client_sync": true },
+        "item:stack_offset": { "type": "int", "range": [ 0, 2 ], "default": 0, "client_sync": true },
+        "item:selected": { "type": "int", "range": [ 0, 5 ], "default": 0, "client_sync": true },
+        "item:type": { "type": "int", "range": [ 0, 7 ], "default": 0, "client_sync": true }
+      }
+    },
+    "component_groups": {
+      "selectedCooldown": {
+        "minecraft:timer": {
+          "time": 0.03,
+          "time_down_event": { "event": "notSelected" }
+        }
+      },
+      "selectedCooldown2": {
+        "minecraft:timer": {
+          "time": 0.03,
+          "time_down_event": { "event": "selected" }
+        }
+      },
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "item_holder", "item", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0.0
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "pivot": [0, 0.0, 0],
+            "width": 0.15,
+            "height": 0.15
+          }
+        ]
+      },
+      "minecraft:equipment": {
+        "slot_drop_chance": [
+          {
+            "slot": "slot.weapon.mainhand",
+            "drop_chance": 0.0
+          }
+        ]
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "interact_text": ""
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          { 
+            "filters": {
+            "any_of": [ 
+                { "test": "in_block", "operator": "==", "value": "portal" },
+                { "test": "in_block", "operator": "==", "value": "end_portal" }
+              ]
+            },
+            "event": "despawn" 
+          }
+        ]
+      }
+    },
+    "events": {
+      "notSelected": {
+        "sequence": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "int_property", "domain": "item:selected", "operator": "==", "value": 1 },
+                { "test": "int_property", "domain": "item:selected", "operator": "==", "value": 4 }
+              ]
+            },
+            "set_property": { "item:selected": 0 }
+          }
+        ]
+      },
+      "selected": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "int_property", "domain": "item:selected", "operator": "==", "value": 3
+            },
+            "set_property": { "item:selected": 2 }
+          }
+        ]
+      },
+      "selectedCooldown": {
+        "add": { "component_groups": "selectedCooldown" }
+      },
+      "selectedCooldown2": {
+        "add": { "component_groups": "selectedCooldown2" }
+      },
+      "despawn": {
+        "add": { "component_groups": "despawn" }
+      }
+    }
+  }
+}

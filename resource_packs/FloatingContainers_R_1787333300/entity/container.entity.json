@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "effectoo:container",
+      "materials": {
+        "default": "entity_alphatest",
+        "others": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/container",
+        "large": "textures/entity/large_container",
+        "minimized": "textures/entity/minimized_container",
+        "movement_mode": "textures/entity/container_modes"
+      },
+      "geometry": {
+        "default": "geometry.container"
+      },
+      "scripts": {
+        "pre_animation": [
+          "v.rot = q.property('container:rotation');",
+          "v.type = q.property('container:type');",
+          "v.mode = q.property('container:mode');"
+        ],
+        "animate": [
+          "rotation"
+        ]
+      },
+      "animations": {
+        "rotation": "animation.container.rotation"
+      },
+      "render_controllers": [ 
+        "controller.render.container",
+        { "controller.render.movement_mode": "v.mode == 1" }
+      ]
+    }
+  }
+}

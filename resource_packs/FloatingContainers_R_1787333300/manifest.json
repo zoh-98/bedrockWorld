@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Floating Containers R",
+    "description": "By Effect99",
+    "uuid": "43b60ff1-5e54-4e5b-b8ba-2db43ae30649",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 21, 20 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a847e0e9-c05e-4b49-8c5f-915343531931",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "74b8a961-48bc-40fd-bd1e-3d061cde4c05",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}
