@@ -1,0 +1,208 @@
+## Items
+dl_vw:configs_menu=Vanilla Waypoints\nMenú de Configuración
+dl_vw:waypoints_manager=Administrador de Puntos de Referencia
+
+## Universal Elements
+## Buttons
+dl_vw:back_button=§4Regresar
+
+## Common Labels
+dl_vw:waypoint_name_label=Nombre del Punto de Referencia:
+dl_vw:coordinates_label=Coordenadas:
+dl_vw:dimension_label=Dimensión:
+dl_vw:dimension_overworld=Overworld
+dl_vw:dimension_nether=Nether
+dl_vw:dimension_the_end=El End
+dl_vw:overworld_waypoints_title=§lPuntos de Referencia del Overworld
+dl_vw:nether_waypoints_title=§lPuntos de Referencia del Nether
+dl_vw:the_end_waypoints_title=§lPuntos de Referencia del End
+##
+##==============================================##
+## CONFIG SYSTEM
+##==============================================##
+## Main Configs Menu
+dl_vw:form_title=§lMenú de Vanilla Waypoints
+dl_vw:form_text=¡Bienvenido al complemento §eVanilla Waypoints!§r\nPuedes usar los botones de abajo para navegar por el menú.\n
+dl_vw:info_button=Información del Complemento
+dl_vw:settings_button=Configuración del Complemento
+dl_vw:changelog_button=Registro de Cambios del Complemento
+dl_vw:op_settings_button=Modo Servidor del Complemento
+
+## Info Menu
+dl_vw:info_title=§lInformación de Vanilla Waypoints
+dl_vw:info_text=\n¡Bienvenido al complemento §l§eVanilla Waypoints!§r\n\n¡Un complemento totalmente personalizable que te ayudará a crear puntos de referencia en tu mundo de Minecraft!\nPuedes colocar puntos de referencia donde quieras y luego teletransportarte a ellos con tu administrador de puntos de referencia.\n\n§c¿Necesita características experimentales?:§r §lNO§r\n§eVersión del complemento:§r 1.9.8\n\nPáginas oficiales para descargar el complemento: §6CurseForge§r o §aMCPEDL§r\n\nCreado por: §bDARKLEXx§r\n§9Discord:§r discord.gg/PPT2uQSvpY\n\n
+
+## Settings Menu
+dl_vw:settings_title=§lConfiguración de Vanilla Waypoints
+dl_vw:settings_header=\nSelecciona una opción a continuación:
+dl_vw:max_waypoints_slider=\nPuntos de Referencia Máximos
+dl_vw:teleport_countdown_slider=\nCuenta Regresiva de Teletransporte
+dl_vw:show_particles=Mostrar Partículas
+dl_vw:play_sounds=Reproducir Sonidos
+dl_vw:allow_public_waypoints=Permitir Puntos Públicos
+dl_vw:max_public_waypoints_slider=\nMáx. Puntos Públicos Por Jugador
+dl_vw:organization_style_label=\nEstilo de Organización:
+dl_vw:org_style_list=Lista
+dl_vw:org_style_category=Por Categoría
+
+## Changelog Menu
+dl_vw:changelog_title=§lRegistro de Cambios de Vanilla Waypoints
+dl_vw:changelog_1.9.8=§l§6\nVersión 1.9.8:\n§r§9[#]§7 Corrección de errores.\n\n
+dl_vw:changelog_1.9.7=§l§6\nVersión 1.9.7:\n§r§6[!]§r Soporte para Minecraft 26.40 y superior.\n§r§9[#]§7 Corrección de errores.\n\n
+dl_vw:changelog_1.9.6=§l§e\nVersión 1.9.6:\n§r§9[#]§r Se ha corregido un error visual con el contador de puntos de referencia disponibles en el modo de organización "lista" y se ha mejorado ese contador en este modo.\n§r§6[!]§7 Ahora puedes establecer un mínimo de 0 puntos de referencia en el Nether y el End (esto es en respuesta a muchas solicitudes de quienes no desean puntos de referencia en estas dimensiones en sus servidores).\n\n
+dl_vw:changelog_1.9.5=§l§e\nVersión 1.9.5:\n§r§6[!]§r Soporte para Minecraft 26.33 y superior.\n§r§a[+]§7 Añadida la opción "Estilo de Organización" en Configuración Global.\n§r§a[+]§r Añadida la opción "Activar Umbral de Inactividad" en Configuración Global.\n§r§a[^]§7 Aumentado el límite de puntos públicos por jugador de 10 a 50.\n§r§a[^]§7 Aumentado el límite de puntos de referencia por dimensión de 50 a 80.\n§r§a[^]§7 Aumentado el tiempo máximo de cuenta regresiva de teletransporte de 30 a 120 segundos.\n§r§9[#]§r Simplificadas las etiquetas de los interruptores; se eliminaron los textos "ON" y "OFF".\n§r§9[#]§7 Interfaz del menú renovada y mejorada.\n§r§9[#]§7 Fusionada la opción "Partículas de Cancelación" dentro de "Mostrar Partículas".\n§r§9[#]§7 Corregido el mensaje de bienvenida; ya no aparece cada vez que se inicia el mundo.\n§r§9[#]§7 Otros cambios internos menores, correcciones y mejoras.\n\n
+dl_vw:changelog_1.9.4=§l§e\nVersión 1.9.4:\n§r§6[!]§r Soporte para Minecraft 26.32 y superior.\n§r§a[+]§7 Añadido un efecto de sonido de cuenta regresiva de teletransporte.\n§r§a[+]§7 Añadidas partículas de cancelación.\n§r§a[+]§7 Añadido un efecto de sonido y de cámara al llegar tras la teletransportación.\n\n
+dl_vw:changelog_1.9.3=§l§e\nVersión 1.9.3:\n§r§b[*]§r ¡El sistema de operadores ha sido completamente reescrito! Ahora el operador se toma directamente del mundo/servidor/reino, sin etiquetas, sin errores. Esto solucionará muchos de los problemas del sistema anterior. Además, ¡se han eliminado más de 250 líneas de código, haciendo que el complemento sea mucho más pequeño!\n\n
+dl_vw:changelog_1.9.2=§l§e\nVersión 1.9.2:\n§r§6[!]§r Soporte para Minecraft Bedrock 26.23 y superior.\n\n
+dl_vw:changelog_1.9.1=§l§e\nVersión 1.9.1:\n§r§6[!]§r Soporte para Minecraft Bedrock 26.20 y superior.\n\n
+dl_vw:changelog_1.9.0=§l§e\nVersión 1.9.0:\n§r§a[+]§r Añadidos Puntos de Referencia de Muerte. \n§r§a[+]§7 Añadido soporte para teletransportación interdimensional. \n§r§a[+]§r Añadido umbral de inactividad (Esta función es para operadores; cuando un punto de referencia público está inactivo durante los días configurados, los operadores tendrán la opción de eliminarlo interactuando con él... El botón se mostrará en texto rojo). \n§r§a[+]§r Añadido el control deslizante de caducidad del botón del punto de referencia de muerte.\n§r§9[*]§7 Cambios internos menores.\n\n
+
+##==============================================##
+## OPERATOR SYSTEM
+##==============================================##
+## Operator Settings Menu
+dl_vw:op_settings_title=§lModo Servidor del Complemento
+dl_vw:server_mode=Modo Servidor
+
+## Operator Access Control
+dl_vw:op_required_title=§lPermisos de Operador Requeridos
+dl_vw:op_required_message=\n§c¡El Modo Servidor está activado!\n\n§rSolo los operadores del mundo pueden modificar la configuración del complemento.\nSi necesitas acceso, pide al anfitrión del mundo o al administrador del servidor que te otorgue el estatus de operador.\n\n
+
+## Welcome Messages
+dl_vw:welcome_message=§r¡Bienvenido %s§r! Gracias por usar el complemento Vanilla Waypoints.
+dl_vw:op_permissions_info=§bLos operadores del mundo pueden acceder a la Configuración de Operador para configurar el modo servidor del complemento.
+##
+##==============================================##
+## WAYPOINT SYSTEM
+##==============================================##
+## Waypoints Manager Menu
+dl_vw:waypoint_menu_title=§lAdministrador de Puntos de Referencia
+dl_vw:waypoint_menu_text=¡Bienvenido al §eAdministrador de Puntos de Referencia!§r\n
+dl_vw:waypoint_menu_text_2=Puedes usar los botones de abajo para navegar por el menú.\n
+dl_vw:waypoint_slots_text=\nEspacios de Puntos de Referencia:
+dl_vw:create_waypoint_button=Crear Punto de Referencia
+dl_vw:my_waypoints_button=Mis Puntos de Referencia
+dl_vw:waypoints_button=Puntos de Referencia
+dl_vw:manage_waypoints_button=Administrar Puntos de Referencia
+
+## Create Waypoint Menu
+dl_vw:create_waypoint_title=§lCrear Punto de Referencia
+dl_vw:waypoint_name_text=\nNombre del Punto de Referencia: §e
+dl_vw:waypoint_name_placeholder=Ejemplo: Casa, Tienda...
+dl_vw:make_public_toggle=¿Hacer Público?
+
+## My Waypoints Menu
+dl_vw:waypoints_title=§lPuntos de Referencia
+dl_vw:my_waypoints_title=§lMis Puntos de Referencia
+dl_vw:my_waypoints_text=§rTus Puntos de Referencia:
+dl_vw:slots_overworld=\nEspacios en el Overworld:
+dl_vw:slots_nether=Espacios en el Nether:
+dl_vw:slots_the_end=Espacios en el End:
+dl_vw:dimension_selector_text=\nSelecciona una dimensión para ver tus puntos de referencia:
+dl_vw:no_waypoints_dimension_title=§lSin Puntos de Referencia en la Dimensión
+dl_vw:no_waypoints_dimension_text=§e¡No tienes puntos de referencia en esta dimensión!\n\n§rCrea puntos de referencia en esta dimensión o selecciona otra.\n\n
+
+## Public Waypoints Menu
+dl_vw:public_waypoints_button=Puntos Públicos
+dl_vw:public_waypoints_text=§rPuntos de Referencia Públicos compartidos por jugadores:
+dl_vw:no_public_waypoints_text=\n§e¡No hay puntos de referencia públicos en esta dimensión!\n\n§rLos jugadores pueden hacer sus puntos de referencia públicos al crearlos.\n\n
+
+## Manage Waypoints Menu
+dl_vw:manage_waypoints_title=§lAdministrar Puntos de Referencia
+dl_vw:select_waypoint_text=\nSelecciona un Punto de Referencia:
+dl_vw:selected_waypoint_text=\nPunto de Referencia Seleccionado: §e%1
+dl_vw:edit_waypoint_button=Editar Punto de Referencia
+dl_vw:delete_waypoint_button=Eliminar Punto de Referencia
+
+## Edit Waypoint Menu
+dl_vw:edit_waypoint_title=§lEditar Punto de Referencia
+dl_vw:waypoint_edit_name_placeholder=Nombre Actual: §e%1
+dl_vw:update_coordinates_toggle_text=¿Actualizar Coordenadas?
+
+## Delete Waypoint Menu
+dl_vw:delete_waypoint_title=§lEliminar Punto de Referencia
+dl_vw:delete_waypoint_warning=§cADVERTENCIA: §e¡Eliminar este punto de referencia lo removerá permanentemente del sistema de puntos de referencia!\n¡Esta acción no se puede deshacer!\n\n
+##
+##==============================================##
+## CONFIRMATION SYSTEM
+##==============================================##
+## Universal Confirmation Elements
+dl_vw:confirmation_title=§l¿Confirmar Cambios?
+dl_vw:confirmation_enabled=ON
+dl_vw:confirmation_disabled=OFF
+dl_vw:confirmation_confirm=§2Confirmar
+dl_vw:confirmation_cancel=§4Cancelar
+
+## Config Confirmations
+dl_vw:confirmation_question=¿Estás seguro de que quieres cambiar las siguientes configuraciones?
+dl_vw:confirmation_show_particles=Mostrar Partículas:
+dl_vw:confirmation_play_sounds=Reproducir Sonidos:
+dl_vw:confirmation_max_waypoints=Puntos de Referencia Máximos:
+dl_vw:confirmation_teleport_countdown=Cuenta Regresiva de Teletransporte:
+dl_vw:confirmation_allow_public_waypoints=Permitir Puntos Públicos:
+dl_vw:confirmation_max_public_waypoints=Máx. Puntos Públicos Por Jugador:
+dl_vw:confirmation_org_style=Estilo de Organización:
+## Operator Confirmations
+dl_vw:confirmation_op_question=¿Estás seguro de que quieres cambiar las siguientes configuraciones de operador?
+dl_vw:confirmation_op_warning=§cADVERTENCIA: §e¡Cambiar esta configuración afecta cómo funciona el complemento Vanilla Waypoints en modo multijugador!\n¡Si activas este modo, solo los operadores del mundo podrán modificar la configuración de este complemento!\nLos operadores del mundo se administran desde la configuración del mundo/servidor, no desde este complemento.\n\n
+dl_vw:confirmation_server_mode=Modo Servidor:
+
+## Waypoint Confirmations
+dl_vw:edit_waypoint_confirmation_question=¿Estás seguro de que quieres editar este punto de referencia?
+dl_vw:delete_waypoint_confirmation_question=¿Estás seguro de que quieres eliminar este punto de referencia?
+##
+##==============================================##
+## FEEDBACK MESSAGES
+##==============================================##
+## Success Messages
+dl_vw:configuration_saved=§a¡Configuración guardada exitosamente!
+dl_vw:waypoint_created_success=Punto de Referencia: §e'%1' §a¡creado exitosamente!
+dl_vw:confirmation_saved=Punto de Referencia: §e'%1' §a¡editado exitosamente!
+dl_vw:confirmation_waypoint_deleted_success=Punto de Referencia: §e'%1' §c¡eliminado exitosamente!
+dl_vw:teleport_success=§aTeletransportado a: §e'%1' §ren §e'%2'
+dl_vw:teleport_countdown=Teletransportándose a: §e'%1'§r en: §b%2§r segundos...
+dl_vw:teleport_cancelled_moved=§c¡Te moviste!§r ¡Teletransporte a: §e'%1'§r cancelado!
+## Error Messages
+dl_vw:error_occurred=§4¡Ocurrió un error!
+dl_vw:confirmation_error=§4¡Error al guardar la configuración!
+dl_vw:confirmation_op_error=§4¡Error al guardar la configuración!
+dl_vw:waypoint_save_error=§4¡Error al guardar el punto de referencia!
+dl_vw:confirmation_waypoint_save_error=§4¡Error al guardar los cambios del punto de referencia!
+dl_vw:confirmation_delete_error=§4¡Error al eliminar el punto de referencia!
+dl_vw:teleport_error=§4¡Error al teletransportarse al punto de referencia: §e'%1'§r!
+dl_vw:teleport_cross_dimension_error=§cNo se puede teletransportar a §e'%1'§r §c¡dimensión diferente!
+
+
+## Cancellation Messages
+dl_vw:confirmation_canceled=§c¡Configuración cancelada!
+dl_vw:confirmation_op_canceled=§c¡Configuración cancelada!
+dl_vw:confirmation_delete_canceled=§c¡Eliminación del punto de referencia cancelada!
+
+## Validation Messages
+dl_vw:waypoint_name_required=§c¡Se requiere el nombre del punto de referencia!
+dl_vw:waypoint_name_invalid_length=§c¡El nombre del punto de referencia debe tener entre §e'%1' §cy §e'%2' §ccaracteres!
+dl_vw:waypoint_limit_reached=¡Límite de puntos de referencia alcanzado en esta dimensión! §cMáximo: §e'%1' §cpuntos de referencia por dimensión.
+dl_vw:waypoint_name_exists=Nombre del punto de referencia: §e'%1'§c ¡ya existe!
+dl_vw:public_limit_reached=§c¡Límite de puntos públicos alcanzado! §eMáximo: §e'%1' §cpuntos públicos por jugador.
+
+## Information Messages
+dl_vw:confirmation_no_changes=§e¡No se detectaron cambios!
+dl_vw:confirmation_waypoint_not_found=§c¡Punto de referencia no encontrado!
+dl_vw:waypoint_not_found=Punto de Referencia: §e'%1' §c¡no encontrado!
+dl_vw:waypoint_slots_full_title=§lEspacios de Puntos de Referencia Llenos
+dl_vw:waypoint_slots_full_text=\n§e¡Los espacios de puntos de referencia están llenos en esta dimensión!\n\n§r¡Elimina algunos puntos de referencia en esta dimensión si quieres crear uno nuevo!\n\n
+dl_vw:no_waypoints_title=§lSin Puntos de Referencia
+dl_vw:no_waypoints_text=\n§e¡No tienes ningún punto de referencia!\n\n§r¡Crea uno nuevo para comenzar!\n\n
+dl_vw:death_waypoint=Punto de Referencia de Muerte
+dl_vw:interdimensional_tp=TP Interdimensional
+dl_vw:enable_inactive_threshold=Activar Umbral de Inactividad
+dl_vw:inactive_threshold_slider=\nLímite de Inactividad (Días)
+dl_vw:death_waypoint_expiry_slider=\nCaducidad del Waypoint de Muerte (Minutos)
+dl_vw:last_death=§4§oÚltima Muerte
+dl_vw:last_death_translated=Última Muerte
+dl_vw:inactive_waypoint_text=Este waypoint lleva %s días inactivo.
+dl_vw:confirmation_death_waypoint=Waypoint de Muerte:
+dl_vw:confirmation_interdimensional_tp=TP Interdimensional:
+dl_vw:confirmation_inactive_threshold=Límite de Inactividad:
+dl_vw:confirmation_death_waypoint_expiry=Caducidad del Waypoint de Muerte:
+dl_vw:confirmation_enable_inactive_threshold=Activar Umbral de Inactividad:

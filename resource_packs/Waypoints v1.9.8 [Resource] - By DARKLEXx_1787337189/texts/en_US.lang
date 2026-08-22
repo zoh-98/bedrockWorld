@@ -1,0 +1,221 @@
+## Items
+dl_vw:configs_menu=Vanilla Waypoints\nConfigs Menu
+dl_vw:waypoints_manager=Waypoints Manager
+
+## Universal Elements
+## Buttons
+dl_vw:back_button=§4Back
+
+## Common Labels
+dl_vw:waypoint_name_label=Waypoint Name:
+dl_vw:coordinates_label=Coordinates:
+dl_vw:dimension_label=Dimension:
+dl_vw:dimension_overworld=Overworld
+dl_vw:dimension_nether=Nether
+dl_vw:dimension_the_end=The End
+dl_vw:overworld_waypoints_title=§lOverworld Waypoints
+dl_vw:nether_waypoints_title=§lNether Waypoints
+dl_vw:the_end_waypoints_title=§lThe End Waypoints
+##
+##==============================================##
+## CONFIG SYSTEM
+##==============================================##
+## Main Configs Menu
+dl_vw:form_title=§lVanilla Waypoints Menu
+dl_vw:form_text=Welcome to §eVanilla Waypoints Add-on!§r\nYou can use the buttons below to navigate the menu.\n
+dl_vw:info_button=Add-on Info
+dl_vw:settings_button=Add-on Settings
+dl_vw:changelog_button=Add-on Changelog
+dl_vw:op_settings_button=Add-On Server Mode
+
+## Info Menu
+dl_vw:info_title=§lVanilla Waypoints Info
+dl_vw:info_text=\nWelcome to §l§eVanilla Waypoints add-on!§r\n\nA fully customizable add-on that will help you create waypoints in your Minecraft world!\nYou can place waypoints anywhere you like and then teleport to them with your waypoints manager.\n\n§cNeed experimental features?:§r §lNO§r\n§eVersion of the add-on:§r 1.9.8\n\nOfficials pages to download the add-on: §6CurseForge§r or §aMCPEDL§r\n\nCreated by: §bDARKLEXx§r\n§9Discord:§r discord.gg/PPT2uQSvpY\n\n
+
+## Settings Menu
+dl_vw:settings_title=§lVanilla Waypoints Settings
+dl_vw:settings_header=\nSelect an option below:
+dl_vw:settings_global_title=§lGlobal Settings
+dl_vw:settings_dimensions_title=§lDimensions Settings
+dl_vw:settings_global_button=Global Configs
+dl_vw:settings_dimensions_button=Dimensions Configs
+dl_vw:settings_overworld_button=Overworld Configs
+dl_vw:settings_nether_button=Nether Configs
+dl_vw:settings_the_end_button=The End Configs
+dl_vw:settings_overworld_title=§lOverworld Settings
+dl_vw:settings_nether_title=§lNether Settings
+dl_vw:settings_the_end_title=§lThe End Settings
+dl_vw:max_waypoints_slider=\nMax Waypoints
+dl_vw:teleport_countdown_slider=\nTeleport Countdown
+dl_vw:show_particles=Show Particles
+dl_vw:play_sounds=Play Sounds
+dl_vw:allow_public_waypoints=Allow Public Waypoints
+dl_vw:max_public_waypoints_slider=\nMax Public Waypoints Per Player
+dl_vw:organization_style_label=\nOrganization Style:
+dl_vw:org_style_list=List
+dl_vw:org_style_category=By Category
+
+## Changelog Menu
+dl_vw:changelog_title=§lVanilla Waypoints Changelog
+dl_vw:changelog_1.9.8=§l§6\nVersion 1.9.8:\n§r§9[#]§7 Bug Fixes.\n\n
+dl_vw:changelog_1.9.7=§l§6\nVersion 1.9.7:\n§r§6[!]§r Support for Minecraft 26.40 and higher.\n§r§9[#]§7 Bug Fixes.\n\n
+dl_vw:changelog_1.9.6=§l§e\nVersion 1.9.6:\n§r§9[#]§r A visual bug with the available waypoints counter in "list" organization mode was fixed and improved that counter in this mode.\n§r§6[!]§7 You can now set a minimum of 0 waypoints in the Nether and the End (this is in response to many requests from those who do not want waypoints in these dimensions on their servers).\n\n
+dl_vw:changelog_1.9.5=§l§e\nVersion 1.9.5:\n§r§6[!]§r Support for Minecraft 26.33 and higher.\n§r§a[+]§7 Added "Organization Style" option to the Global Settings.\n§r§a[+]§r Added "Enable Inactive Threshold" option to the Global Settings.\n§r§a[^]§7 Increased max public waypoints per player from 10 to 50.\n§r§a[^]§7 Increased maximum waypoints per dimension from 50 to 80.\n§r§a[^]§7 Increased maximum teleport cooldown time from 30 seconds to 120 seconds.\n§r§9[#]§r Simplify toggle labels, "ON" and "OFF" in the labels have been removed.\n§r§9[#]§7 Revamped and improved menu interface.\n§r§9[#]§7 Merge "Cancel Smoke Particles" toggle into "Show Particles" toggle.\n§r§9[#]§7 The welcome message has been fixed; it no longer appears every time the world starts.\n§r§9[#]§7 Other minor internal changes, fixes and improvements.\n\n
+dl_vw:changelog_1.9.4=§l§e\nVersion 1.9.4:\n§r§6[!]§r Support for Minecraft 26.32 and higher.\n§r§a[+]§7 Added a countdown teleport sound effect.\n§r§a[+]§r Added cancellation particles.\n§r§a[+]§r Added an arriving teleport sound and camera effect.\n\n
+dl_vw:changelog_1.9.3=§l§e\nVersion 1.9.3:\n§r§b[*]§r The operator system has been completely rewritten! Now the operator is taken directly from the world/server/realm, no tags, no errors. This will fix many of the problems with the previous system. Furthermore, over 250 lines of code have been removed, making the add-on much smaller!\n\n
+dl_vw:changelog_1.9.2=§l§e\nVersion 1.9.2:\n§r§6[!]§r Support for Minecraft Bedrock 26.23 and higher.\n\n
+dl_vw:changelog_1.9.1=§l§e\nVersion 1.9.1:\n§r§6[!]§r Support for Minecraft Bedrock 26.20 and higher.\n\n
+dl_vw:changelog_1.9.0=§l§e\nVersion 1.9.0:\n§r§a[+]§r Added Death Waypoints. \n§r§a[+]§7 Added Interdimensional Teleport Support. \n§r§a[+]§r Added Inactive Threshold (This function is for OPs; when a public waypoint is inactive during the configured days, OPs will have the option to delete them by interacting with them... The button will be displayed with red text). \n§r§a[+]§7 Added Death Waypoint button expiry slider.\n§r§9[*]§r Minor internal changes.\n\n
+##
+##==============================================##
+## OPERATOR SYSTEM
+##==============================================##
+## Operator Settings Menu
+dl_vw:op_settings_title=§lAdd-On Server Mode
+dl_vw:server_mode=Server Mode
+
+## Operator Access Control
+dl_vw:op_required_title=§lOperator Permissions Required
+dl_vw:op_required_message=\n§cServer Mode is enabled!\n\n§rOnly world operators can modify add-on settings.\nIf you need access, ask the world host or server admin to grant you operator status.\n\n
+
+## Welcome Messages
+dl_vw:welcome_message=§rWelcome %s§r! Thank you for using the Vanilla Waypoints add-on.
+dl_vw:op_permissions_info=§bWorld operators can access the Operator Settings to configure the add-on's server mode.
+
+##
+##==============================================##
+## WAYPOINT SYSTEM
+##==============================================##
+## Waypoints Manager Menu
+dl_vw:waypoint_menu_title=§lWaypoints Manager
+dl_vw:waypoint_menu_text=Welcome to the §eWaypoints Manager!§r\n
+dl_vw:waypoint_menu_text_2=You can use the buttons below to navigate the menu.\n
+dl_vw:waypoint_slots_text=\nWaypoint Slots:
+dl_vw:create_waypoint_button=Create Waypoint
+dl_vw:my_waypoints_button=My Waypoints
+dl_vw:waypoints_button=Waypoints
+dl_vw:manage_waypoints_button=Manage Waypoints
+
+## Create Waypoint Menu
+dl_vw:create_waypoint_title=§lCreate Waypoint
+dl_vw:waypoint_name_text=\nWaypoint Name: §e
+dl_vw:waypoint_name_placeholder=Example: House, Shop...
+dl_vw:make_public_toggle=Make Public?
+
+## My Waypoints Menu
+dl_vw:waypoints_title=§lWaypoints
+dl_vw:my_waypoints_title=§lMy Waypoints
+dl_vw:my_waypoints_text=§rYour Waypoints:
+dl_vw:slots_overworld=\nSlots in the Overworld:
+dl_vw:slots_nether=Slots in the Nether:
+dl_vw:slots_the_end=Slots in the End:
+dl_vw:dimension_selector_text=\nSelect a dimension to view your waypoints:
+dl_vw:no_waypoints_dimension_title=§lNo Waypoints in Dimension
+dl_vw:no_waypoints_dimension_text=§eYou don't have any waypoints in this dimension!\n\n§rCreate waypoints in this dimension or select another one.\n\n
+
+## Public Waypoints Menu
+dl_vw:public_waypoints_button=Public Waypoints
+dl_vw:public_waypoints_text=\nPublic Waypoints shared by players:
+dl_vw:no_public_waypoints_text=\n§eNo public waypoints available in this dimension!\n\n§rPlayers can make their waypoints public when creating them.\n\n
+
+## Manage Waypoints Menu
+dl_vw:manage_waypoints_title=§lManage Waypoints
+dl_vw:select_waypoint_text=\nSelect a Waypoint:
+dl_vw:selected_waypoint_text=\nSelected Waypoint: §e%1
+dl_vw:edit_waypoint_button=Edit Waypoint
+dl_vw:delete_waypoint_button=Delete Waypoint
+
+## Edit Waypoint Menu
+dl_vw:edit_waypoint_title=§lEdit Waypoint
+dl_vw:waypoint_edit_name_placeholder=Current Name: §e%1
+dl_vw:update_coordinates_toggle_text=Update Coordinates?
+
+## Delete Waypoint Menu
+dl_vw:delete_waypoint_title=§lDelete Waypoint
+dl_vw:delete_waypoint_warning=§cWARNING: §eDeleting this waypoint will permanently remove it from the waypoints system!\nThis action cannot be undone!\n\n
+##
+##==============================================##
+## CONFIRMATION SYSTEM
+##==============================================##
+## Universal Confirmation Elements
+dl_vw:confirmation_title=§lConfirm Changes?
+dl_vw:confirmation_enabled=Enabled
+dl_vw:confirmation_disabled=Disabled
+dl_vw:confirmation_confirm=§2Confirm
+dl_vw:confirmation_cancel=§4Cancel
+
+## Config Confirmations
+dl_vw:confirmation_question=Are you sure you want to change the following configurations?
+dl_vw:confirmation_show_particles=Show Particles:
+dl_vw:confirmation_play_sounds=Play Sounds:
+dl_vw:confirmation_max_waypoints=Max Waypoints:
+dl_vw:confirmation_teleport_countdown=Teleport Countdown:
+dl_vw:confirmation_allow_public_waypoints=Allow Public Waypoints:
+dl_vw:confirmation_max_public_waypoints=Max Public Waypoints Per Player:
+dl_vw:confirmation_org_style=Organization Style:
+
+## Operator Confirmations
+dl_vw:confirmation_op_question=Are you sure you want to change the following operator configurations?
+dl_vw:confirmation_op_warning=§cWARNING: §eChanging this setting affects how the Vanilla Waypoints add-on works in multiplayer mode!\nIf you enable this mode, only world operators will be able to modify this add-on's settings!\nWorld operators are managed from the world/server settings, not from this add-on.\n\n
+dl_vw:confirmation_server_mode=Server Mode:
+
+## Waypoint Confirmations
+dl_vw:edit_waypoint_confirmation_question=Are you sure you want to edit this waypoint?
+dl_vw:delete_waypoint_confirmation_question=Are you sure you want to delete this waypoint?
+##
+##==============================================##
+## FEEDBACK MESSAGES
+##==============================================##
+## Success Messages
+dl_vw:configuration_saved=§aConfiguration saved successfully!
+dl_vw:waypoint_created_success=Waypoint: §e'%1' §acreated successfully!
+dl_vw:confirmation_saved=Waypoint: §e'%1' §aedited successfully!
+dl_vw:confirmation_waypoint_deleted_success=Waypoint: §e'%1' §cdeleted successfully!
+dl_vw:teleport_success=§aTeleported to: §e'%1' §rat §e'%2'
+dl_vw:teleport_countdown=Teleporting to: §e'%1'§r in: §b%2§r seconds...
+dl_vw:teleport_cancelled_moved=§cYou moved!§r Teleport to: §e'%1'§r cancelled!
+
+## Error Messages
+dl_vw:error_occurred=§4An error occurred!
+dl_vw:confirmation_error=§4Error saving configuration!
+dl_vw:confirmation_op_error=§4Error saving configuration!
+dl_vw:waypoint_save_error=§4Error saving waypoint!
+dl_vw:confirmation_waypoint_save_error=§4Error saving waypoint changes!
+dl_vw:confirmation_delete_error=§4Error deleting waypoint!
+dl_vw:teleport_error=§4Error teleporting to waypoint: §e'%1'§r!
+dl_vw:teleport_cross_dimension_error=§cCannot teleport to §e'%1'§r §cdifferent dimension!
+
+
+## Cancellation Messages
+dl_vw:confirmation_canceled=§cConfiguration cancelled!
+dl_vw:confirmation_op_canceled=§cConfiguration cancelled!
+dl_vw:confirmation_delete_canceled=§cWaypoint deletion cancelled!
+
+## Validation Messages
+dl_vw:waypoint_name_required=§cWaypoint name is required!
+dl_vw:waypoint_name_invalid_length=§cWaypoint name must be between §e'%1' §cand §e'%2' §ccharacters!
+dl_vw:waypoint_limit_reached=Waypoint limit reached in this dimension! §cMaximum: §e'%1' §cwaypoints per dimension.
+dl_vw:waypoint_name_exists=Waypoint name: §e'%1'§c already exists!
+dl_vw:public_limit_reached=§cPublic waypoint limit reached! §eMaximum: §e'%1' §cpublic waypoints per player.
+
+## Information Messages
+dl_vw:confirmation_no_changes=§eNo changes detected!
+dl_vw:confirmation_waypoint_not_found=§cWaypoint not found!
+dl_vw:waypoint_not_found=Waypoint: §e'%1' §cnot found!
+dl_vw:waypoint_slots_full_title=§lWaypoint Slots Full
+dl_vw:waypoint_slots_full_text=\n§eWaypoint slots are full in this dimension!\n\n§rDelete some waypoints in this dimension if you want to create a new one!\n\n
+dl_vw:no_waypoints_title=§lNo Waypoints
+dl_vw:no_waypoints_text=\n§eYou don't have any waypoints!\n\n§rCreate a new one to get started!\n\n
+dl_vw:death_waypoint=Death Waypoint
+dl_vw:interdimensional_tp=Interdimensional TP
+dl_vw:enable_inactive_threshold=Enable Inactivity Threshold
+dl_vw:inactive_threshold_slider=\nInactive Threshold (Days)
+dl_vw:death_waypoint_expiry_slider=\nDeath Waypoint Expiry (Minutes)
+dl_vw:last_death=§4§oLast Death
+dl_vw:last_death_translated=Last Death
+dl_vw:inactive_waypoint_text=This waypoint has been inactive for %s days.
+dl_vw:confirmation_death_waypoint=Death Waypoint:
+dl_vw:confirmation_interdimensional_tp=Interdimensional TP:
+dl_vw:confirmation_inactive_threshold=Inactive Threshold:
+dl_vw:confirmation_death_waypoint_expiry=Death Waypoint Expiry:
+dl_vw:confirmation_enable_inactive_threshold=Enable Inactivity Threshold:
